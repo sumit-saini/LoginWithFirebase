@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <demo.com.loginwithfirebase.view.LabelButtonView
+        android:id="@+id/btn_label"
+        android:text="label"
+        android:padding="20dp"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:background="@android:color/holo_red_dark"
+        app:label_text="hello"
+        app:label_textColor="#ffff"
+        app:label_backgroundColor="#FF4081"
+        app:label_textSize="12dp"
+        app:label_height="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
